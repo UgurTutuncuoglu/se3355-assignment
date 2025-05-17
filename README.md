@@ -1,58 +1,74 @@
-# SE3355 Frontend - News Portal
+## SE3355 – News Portal (20070006012 - Uğur Tütüncüoğlu)
+This repository contains both the frontend and backend for the SE3355 assignment.
+The frontend is built with React and Redux, while the backend uses Node.js, Express, and SQLite.
 
-This is the **frontend** project for the SE3355 assignment, developed using **React** and **Redux**.  
-It is connected to a backend API that provides news data and other services.
 
-## 🌐 Live Website
-The site is deployed using **GitHub Pages** and can be accessed at:  
-https://ugurtutuncuoglu.github.io/se3355-assignment/
+
+The site is deployed using GitHub Pages and can be accessed here:
+## 🔗 https://ugurtutuncuoglu.github.io/se3355-assignment/
+
+The backend API is hosted separately on Render.com 
+
+
 
 ## 📁 Project Structure
 
-Frontend/
-│
-├── public/ # Public assets
-|── redux/ # Redux for saving visited pages
-├── src/ # Main source code
-│ ├── components/ # Reusable React components (Navbar, Slider, Weather, etc.)
-│ ├── App.jsx # Main app component
-│ └── main.jsx # Entry point
-├── .gitignore
-├── package.json
-├── vite.config.js # Vite build configuration
-└── index.html
+se3355-assignment/
+├── Frontend/                  # React app (GitHub Pages)
+│   ├── public/                # Public assets
+│   ├── redux/                 # Redux setup (visited page history)
+│   ├── src/                   # Main React source code
+│   │   ├── components/        # Navbar, Slider, Weather, etc.
+│   │   ├── App.jsx            # Main App component
+│   │   └── main.jsx           # Entry point
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── .gitignore
 
-## 🏗️ Build for Production
+├── Backend/                   # Express server (Render.com)
+│   ├── app.js                 # Entry point for the backend
+│   ├── db.db                  # SQLite database file
+│   ├── package.json
+│   ├── package-lock.json
+│   └── .gitignore
+
+└── README.md
+
+## 🧱 Build for Production (Frontend)
+cd Frontend
+npm install
 npm run build
 
 
 
-## 📦 Deployment (GitHub Pages)
-To deploy on GitHub Pages:
+## 🚀 Deployment
+Frontend (GitHub Pages)
+Build the app:
+npm run build
 
-Run npm run build
-
-Push the built files to the gh-pages branch
-
-GitHub Pages will serve from that branch
-
-## Uğur Tütüncüoğlu - 20070006012
-
-## 🔧 Tech Stack
-
-- Node.js
-- Express.js
-- SQLite 
-- Deployed on Render.com
-- React with VITE
+Deploy using gh-pages:
+npm run deploy
 
 
-⚠️ Notes on Free Hosting (Render.com)
-This backend is hosted on Render.com using the free tier, which has the following important behaviors:
+## 🛠️ Tech Stack
+# Frontend:
+React (Vite)
+Redux
+Bootstrap
 
-🔄 Auto-Sleep & Cold Start
-Render automatically puts free services to sleep after 15 minutes of inactivity to save resources.
+# Backend:
+Node.js
+Express.js
+SQLite
 
-When the service is accessed again ( via the frontend or direct API call), it may take a few seconds or minutes to "wake up."
+# Hosting:
+Frontend: GitHub Pages
 
-During this wake-up period, you might see a temporary 502 Bad Gateway error — this is expected and will usually resolve itself shortly.
+Backend: Render.com
+
+⚠️ Notes on Free Hosting (Render)
+🔄 Auto-Sleep & Cold Starts
+Render’s free tier sleeps inactive services after 15 minutes. First-time access may take several minutes (or return a 502 Bad Gateway) — just refresh and wait for it to wake up.
+
+
