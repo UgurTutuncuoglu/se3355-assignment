@@ -1,6 +1,6 @@
 ## SE3355 – News Portal (20070006012 - Uğur Tütüncüoğlu)
 This repository contains both the frontend and backend for the SE3355 assignment.
-The frontend is built with React and Redux, while the backend uses Node.js, Express, and SQLite.
+The frontend is built with React (Vite) and Redux, while the backend uses Node.js, Express, and SQLite.
 
 
 
