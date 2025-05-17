@@ -11,34 +11,10 @@ The backend API is hosted separately on Render.com
 
 
 
-## 📁 Project Structure
-
-se3355-assignment/
-├── Frontend/                  # React app (GitHub Pages)
-│   ├── public/                # Public assets
-│   ├── redux/                 # Redux setup (visited page history)
-│   ├── src/                   # Main React source code
-│   │   ├── components/        # Navbar, Slider, Weather, etc.
-│   │   ├── App.jsx            # Main App component
-│   │   └── main.jsx           # Entry point
-│   ├── index.html
-│   ├── package.json
-│   ├── vite.config.js
-│   └── .gitignore
-
-├── Backend/                   # Express server (Render.com)
-│   ├── app.js                 # Entry point for the backend
-│   ├── db.db                  # SQLite database file
-│   ├── package.json
-│   ├── package-lock.json
-│   └── .gitignore
-
-└── README.md
+<pre> ## 📁 Project Structure ``` se3355-assignment/ ├── Frontend/ # React app (GitHub Pages) │ ├── public/ # Public assets │ ├── redux/ # Redux setup (visited page history) │ ├── src/ # Main React source code │ │ ├── components/ # Navbar, Slider, Weather, etc. │ │ ├── App.jsx # Main App component │ │ └── main.jsx # Entry point │ ├── index.html │ ├── package.json │ ├── vite.config.js │ └── .gitignore ├── Backend/ # Express server (Render.com) │ ├── app.js # Entry point for the backend │ ├── db.db # SQLite database file │ ├── package.json │ ├── package-lock.json │ └── .gitignore └── README.md ``` </pre>
 
 ## 🧱 Build for Production (Frontend)
-cd Frontend
-npm install
-npm run build
+cd Frontend | npm install | npm run build
 
 
 
