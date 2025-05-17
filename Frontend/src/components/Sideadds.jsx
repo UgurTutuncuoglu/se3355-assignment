@@ -15,7 +15,6 @@ export default function Sideadds() {
 
   useEffect(() => {
     fetch("https://se3355-assignment-fne9.onrender.com/api/sideadd")
-
       .then((response) => response.json())
       .then((data) => {
         setAds(data);
