@@ -48,12 +48,12 @@ npm run deploy
 
 
 ## 🛠️ Tech Stack
-# Frontend:
+ Frontend:
 React (Vite)
 Redux
 Bootstrap
 
-# Backend:
+ Backend:
 Node.js
 Express.js
 SQLite
