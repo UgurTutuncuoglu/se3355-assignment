@@ -7,7 +7,7 @@ export default function Slider() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/slider")
+    fetch("https://se3355-assignment-fne9.onrender.com/api/slider")
       .then((response) => response.json())
       .then((data) => setImages(data))
       .catch((error) => console.error("Failed to fetch slider images:", error));
