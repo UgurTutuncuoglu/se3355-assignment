@@ -14,7 +14,7 @@ export default function Sideadds() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/sideadd")
+    fetch("https://se3355-assignment-fne9.onrender.com/api/sideadd")
       .then((response) => response.json())
       .then((data) => {
         setAds(data);
