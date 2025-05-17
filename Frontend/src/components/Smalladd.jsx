@@ -14,7 +14,7 @@ export default function Smalladd() {
         
         const fetchAdData = async () => {
             try {
-                const response = await fetch('http://localhost:3000/api/smalladd');
+                const response = await fetch('https://se3355-assignment-fne9.onrender.com/api/smalladd');
                 const data = await response.json();
                 setAdData(data[0]); 
             } catch (error) {
