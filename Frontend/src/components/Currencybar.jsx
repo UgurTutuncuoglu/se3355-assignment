@@ -5,7 +5,7 @@ export default function CurrencyBar() {
   const [currencies, setCurrencies] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/currency")
+    fetch("https://se3355-assignment-fne9.onrender.com/api/currency")
       .then((response) => response.json())
       .then((data) => setCurrencies(data))
       .catch((error) => console.error("Failed to fetch currency data:", error));
