@@ -46,16 +46,3 @@ export default function Smalladd() {
 
 
 
-// export default function Smalladd(){
-//     return (
-//        <div className="card mb-3" style={{ height: "200px", overflow: "hidden" }}>
-//                 <img
-//                   src="https://i.ytimg.com/vi/K4zDFmpbkBw/maxresdefault.jpg"
-//                   className="card-img-top"
-//                   alt="Advertisement"
-//                   style={{ objectFit: "cover", height: "200px" }}
-//                 />
-                
-//               </div>
-//     );
-// }
