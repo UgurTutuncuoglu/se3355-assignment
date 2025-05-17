@@ -8,7 +8,7 @@ export default function Weather() {
   const [forecast, setForecast] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/weather")
+    fetch("https://se3355-assignment-fne9.onrender.com/api/weather")
       .then((response) => response.json())
       .then((data) => {
         
