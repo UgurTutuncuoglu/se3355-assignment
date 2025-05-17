@@ -4,10 +4,10 @@ The frontend is built with React (Vite) and Redux, while the backend uses Node.j
 
 
 
-The site is deployed using GitHub Pages and can be accessed here:
-## 🔗 https://ugurtutuncuoglu.github.io/se3355-assignment/
+## 🔗 Live Deployments
+Frontend: https://ugurtutuncuoglu.github.io/se3355-assignment/
 
-The backend API is hosted separately on Render.com 
+Backend (API - Render): Hosted on Render.com (free tier)
 
 
 ## 📁 Project Structure
@@ -48,15 +48,26 @@ npm run deploy
 
 
 ## 🛠️ Tech Stack
- Frontend:
-React (Vite)
-Redux
-Bootstrap
+🔹 Frontend
+React (with Vite)
 
- Backend:
+Redux (visited pages tracking)
+
+Bootstrap (CSS)
+
+Responsive Design
+
+🔹 Backend
 Node.js
+
 Express.js
-SQLite
+
+SQLite (Local database, not in-memory)
+
+🔹 Hosting
+Frontend: GitHub Pages
+
+Backend: Render.com (free tier)
 
 # Hosting:
 Frontend: GitHub Pages
