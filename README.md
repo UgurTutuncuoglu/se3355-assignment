@@ -35,8 +35,9 @@ Backend/ # Express server (Render.com)
 ```
 
 ## 🧱 Build for Production (Frontend)
+```
 cd Frontend | npm install | npm run build
-
+```
 
 
 ## 🚀 Deployment
@@ -50,6 +51,7 @@ npm run deploy
 
 ## 🛠️ Tech Stack
 🔹 Frontend
+```
 React (with Vite)
 
 Redux (visited pages tracking)
@@ -57,18 +59,23 @@ Redux (visited pages tracking)
 Bootstrap (CSS)
 
 Responsive Design
+```
 
 🔹 Backend
+```
 Node.js
 
 Express.js
 
 SQLite (Local database, not in-memory)
+```
 
 🔹 Hosting
+```
 Frontend: GitHub Pages
 
 Backend: Render.com (free tier)
+```
 
 # Hosting:
 Frontend: GitHub Pages
