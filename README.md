@@ -11,7 +11,7 @@ Backend (API - Render): Hosted on Render.com (free tier)
 
 
 ## 📁 Project Structure
-
+```
 Frontend/ # React app (GitHub Pages)
 │ ├── public/ # Public assets
 │ ├── redux/ # Redux setup (visited page history)
@@ -32,6 +32,7 @@ Backend/ # Express server (Render.com)
 │ └── .gitignore
 
 └── README.md
+```
 
 ## 🧱 Build for Production (Frontend)
 cd Frontend | npm install | npm run build
